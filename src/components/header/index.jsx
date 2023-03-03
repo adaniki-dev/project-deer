@@ -32,7 +32,10 @@ export function Header() {
                 let hero = document.getElementById('experience');
                 e.preventDefault();
                 hero &&
-                  hero.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  hero.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'end',
+                  });
               }}
             >
               Experiências
@@ -46,7 +49,7 @@ export function Header() {
                 let hero = document.getElementById('about');
                 e.preventDefault();
                 hero &&
-                  hero.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  hero.scrollIntoView({ behavior: 'smooth', block: 'end' });
               }}
             >
               Sobre
@@ -60,7 +63,7 @@ export function Header() {
                 let hero = document.getElementById('footer');
                 e.preventDefault();
                 hero &&
-                  hero.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  hero.scrollIntoView({ behavior: 'smooth', block: 'end' });
               }}
             >
               Contato
