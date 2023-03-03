@@ -5,7 +5,6 @@ export const AboutContainer = styled.section`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 40vh;
   padding: 4rem 0;
   gap: 2rem;
 
@@ -34,8 +33,37 @@ export const AboutContainer = styled.section`
   }
 
   .about_professional_list_comment {
+    display: flex;
+    flex-direction: column;
     font-size: 1.4rem;
     text-align: start;
-    flex: 1 1 auto;
+    max-width: 360px;
+    border-radius: 1rem;
+    background: linear-gradient(
+      100.87deg,
+      rgba(255, 255, 255, 0.4) -16.61%,
+      rgba(255, 255, 255, 0.1) 58.59%
+    );
+    box-shadow: rgb(0 0 0 / 25%) 0px 4px 24px -1px;
+    backdrop-filter: blur(10px);
+    padding: 1rem 2rem;
+    gap: 0.8rem;
+
+    span {
+      display: flex;
+      width: 2.5rem;
+      height: 2.5rem;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem;
+      border: 2px solid black;
+      border-radius: 100%;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .about_professional_conteiner {
+      padding: 0 1.5rem;
+    }
   }
 `;

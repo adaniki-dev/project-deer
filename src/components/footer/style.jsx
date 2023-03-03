@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const FooterContainer = styled.footer`
   display: flex;
   width: 100%;
-  height: 30vh;
   background: rgb(42, 4, 79);
   justify-content: space-around;
+  padding: 3rem 0;
 
   .contact_container {
     display: flex;

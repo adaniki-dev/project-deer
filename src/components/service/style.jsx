@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const ServiceContainer = styled.section`
   width: 100%;
-  height: 40vh;
   background: #f4faff;
   display: flex;
   flex-direction: column;
@@ -23,7 +22,7 @@ export const ServiceContainer = styled.section`
     gap: 1rem;
   }
   .service_conteiner_comment {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .services_experience_conteiner {
@@ -52,5 +51,15 @@ export const ServiceContainer = styled.section`
     font-size: 1.4rem;
     font-weight: 700;
     color: #2a044f;
+  }
+
+  @media (max-width: 990px) {
+    .service_conteiner {
+      align-items: center;
+      padding: 0 3rem;
+    }
+    .service_conteiner_comment {
+      text-align: center;
+    }
   }
 `;
