@@ -65,5 +65,8 @@ export const AboutContainer = styled.section`
     .about_professional_conteiner {
       padding: 0 1.5rem;
     }
+    .about_professional_list {
+      flex-direction: column;
+    }
   }
 `;

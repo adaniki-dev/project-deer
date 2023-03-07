@@ -41,20 +41,6 @@ export function Header() {
               Experiências
             </a>
           </li>
-          <li className="header_navbar_link">
-            <a
-              className="white_color"
-              href="/"
-              onClick={(e) => {
-                let hero = document.getElementById('about');
-                e.preventDefault();
-                hero &&
-                  hero.scrollIntoView({ behavior: 'smooth', block: 'end' });
-              }}
-            >
-              Sobre
-            </a>
-          </li>
           <li className="header_navbar_link button_styled">
             <a
               className="white_color"

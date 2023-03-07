@@ -61,5 +61,12 @@ export const ServiceContainer = styled.section`
     .service_conteiner_comment {
       text-align: center;
     }
+
+    .services_experience_conteiner {
+      flex-direction: column;
+    }
+    .services_experience {
+      justify-content: center;
+    }
   }
 `;
